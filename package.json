@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-nft",
+  "version": "1.0.0",
+  "description": "proyecto nft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "virginia",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.27.9",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-nunjucks": "^5.1.0",
+    "gulp-plumber": "^1.2.1"
+  }
+}
