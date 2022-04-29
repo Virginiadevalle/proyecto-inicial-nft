@@ -24,7 +24,44 @@ function liveReaload() {
 function compliarTemplates(cb) {
     gulp.src("src/html/*.njk")
     .pipe(plumber())
-    .pipe(nunjucks.compile())
+    .pipe(nunjucks.compile({
+        cars:[
+            "Domain Names",
+            "Trading Cards",
+            "Collectibeles",
+            "Virtual Worlds",
+            "Domain Names",
+            "Trading Cards",
+            "Collectibeles",
+            "Virtual Worlds",
+        ],
+        sellers: [
+            {
+              items: 62,
+              name: "James Tonny"
+            },
+            {
+              items: 129,
+              name: "Buri maa"
+            },
+            {
+              items: 28,
+              name: "James unny"
+            },
+            {
+              items: 23,
+              name: "James tonny"
+            },
+            {
+              items: 15,
+              name: "Jimmy choe"
+            },
+            {
+              items: 33,
+              name: "Stave Bamer"
+            },
+        ]
+    }))
     .pipe(gulp.dest("dist"))
     cb();
 }

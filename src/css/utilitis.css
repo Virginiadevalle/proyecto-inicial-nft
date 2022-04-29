@@ -122,17 +122,18 @@
 /* utilidades de imgs start */
 
 .img-H-I{
-    background-image: url(../../dist/img/headerIndex.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(../img/headerIndex.png);
 }
 .img-H-E{
-    background-image: url(../../dist/img/header-explore.png);
+    background-image: url(../img/header-explore.png);
+}
+
+.cover-bg{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 /* utilidades de imgs end */
 
 /* utilidades de posicion start */
