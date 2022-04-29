@@ -1,9 +1,11 @@
 {% extends "base.njk" %}
 
 {% block header %}
-    <h2>Items details header</h2>
+    {% include "partials/items-details/header.njk" %}
 {% endblock %}
 
 {% block main %}
-    <h2>Items details Main</h2>
+    {% include "partials/items-details/single-items-details.njk" %}
 {% endblock %}
+
+{% include "partials/footer.njk" %}

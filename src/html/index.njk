@@ -1,9 +1,15 @@
 {% extends "base.njk" %}
 
 {% block header %}
-    <h2>Index header</h2>
+{% include "partials/home/header.njk" %}
 {% endblock %}
 
 {% block main %}
-    <h2>Index Main</h2>
+{% include "partials/home/liveAuctions.njk" %}
+{% include "partials/home/top-sellers.njk" %}
+{% include "partials/home/explore.njk" %}
+{% include "partials/home/popular-collections.njk" %}
+{% include "partials/home/how-it-works.njk" %}
 {% endblock %}
+
+{% include "partials/footer.njk" %}

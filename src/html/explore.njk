@@ -1,9 +1,11 @@
 {% extends "base.njk" %}
 
 {% block header %}
-    <h2>Explore header</h2>
+{% include "partials/explore/header.njk" %}
 {% endblock %}
 
 {% block main %}
-    <h2>Explore Main</h2>
+{% include "partials/home/explore.njk" %}
 {% endblock %}
+
+{% include "partials/footer.njk" %}
